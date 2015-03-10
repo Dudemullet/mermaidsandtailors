@@ -1,0 +1,22 @@
+{
+  "name": "bajalaw",
+  "version": "1.0.0",
+  "description": "Bajalaw website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://dudemullet@nothingfancy.co/home/dudemullet/projects/bajalaw.git"
+  },
+  "keywords": [
+    "bajalaw"
+  ],
+  "author": "luis@nothingfancy.co",
+  "license": "ISC",
+  "devDependencies": {
+    "rsync": "^0.4.0"
+  },
+  "private": true
+}
