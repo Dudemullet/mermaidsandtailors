@@ -1,3 +1,52 @@
 body {
   color: $font_color;
 }
+
+.nav li {
+  display: inline-block;
+}
+
+img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav li {
+    width: 30%;
+
+    a {
+      font-size: 2em;
+      span {
+        display: none;
+      }
+    }
+  }
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  li a {
+    font-size: 1.3em;
+    font-weight: 100;
+    color: whitesmoke;
+    letter-spacing: 1.5px;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  li a {
+    font-size: 1.1em;
+    font-weight: 100;
+    color: whitesmoke;
+    letter-spacing: 1.1px;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  li a {
+    font-size: 2em;
+    letter-spacing: 1.5px;
+  }
+}
+
